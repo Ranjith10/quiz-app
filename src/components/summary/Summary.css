@@ -1,0 +1,80 @@
+.summary-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #EDE7F6;
+  height: calc(90vh - 3rem);
+  padding: 1.5rem 10%;
+}
+
+.summary-container > .summary-title {
+  display: flex;
+  justify-content: center;
+}
+
+.results-description {
+  display: flex;
+  justify-content: center;
+  font-size: 1.25rem;
+}
+
+.results-summary-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  gap: 1rem;
+}
+
+.results-summary-item {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  border: 1px solid;
+  border-radius: 1rem;
+  font-size: 1.25rem;
+  color: #ffffff;
+}
+
+.results-summary-item.Correct {
+  background-color: #5cb85c;
+}
+
+.results-summary-item.Wrong {
+  background-color: #D32F2F;
+}
+
+.circle-progress {
+  height: 4rem;
+  margin: 0 0 1rem 1rem;
+}
+
+.summary-description {
+  display: flex;
+}
+
+.results-action-container {
+  display: flex;
+  margin: 2rem 0 0 0;
+  gap: 2rem;
+}
+
+.results-action-container > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem;
+  border: 2px solid #3700b3;
+  border-radius: 1rem;
+  min-width: 3rem;
+  cursor: pointer;
+  color: #3700b3;
+  height: fit-content;
+  font-weight: 600;
+  background-color: #EDE7F6;
+}
+
+.results-action-container > button:hover{
+  background-color: #3700b3;
+  color: #ffffff;
+  font-weight: 600;
+}

@@ -1,0 +1,9 @@
+.error-fallback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #EDE7F6;
+  height: calc(100vh - 3rem);
+  padding: 1.5rem 10%;
+}

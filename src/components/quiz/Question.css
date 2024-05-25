@@ -1,0 +1,30 @@
+.question-container {
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+}
+
+.answer-option {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+  font-size: 1.25rem;
+  font-weight: 500;
+  width: fit-content;
+}
+
+.answer-option > input {
+  margin: 0 2rem 0 0;
+  cursor: pointer;
+  height: 1rem;
+}
+
+.answer-option > label {
+  cursor: pointer;
+}
+
+.answer-option:hover {
+  color: #6002ee;
+  font-weight: 600;
+}
+

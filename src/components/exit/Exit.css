@@ -1,0 +1,8 @@
+.exit-msg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #EDE7F6;
+  height: calc(90vh - 3rem);
+  padding: 1.5rem 10%;
+}

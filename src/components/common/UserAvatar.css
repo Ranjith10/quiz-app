@@ -1,0 +1,18 @@
+.username-avatar {
+  display: flex;
+  align-items: center;
+}
+.username-avatar > label {
+  margin: 0 1rem 0 0;
+}
+.username-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: #ffffff;
+  color: #6200ee;
+  font-weight: 600;
+}
